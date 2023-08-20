@@ -11,6 +11,8 @@ class YellowTypograph {
     public static function applyTypograph($text) {
         $typograph = new EMTypograph();
         $typograph->setup([
+            "Dash.to_libo_nibud" => "off",
+            "Dash.ka_de_kas" => "off",
             "Text.paragraphs" => "off",
             "Text.breakline" => "off",
             "OptAlign.oa_oquote" => "off",
